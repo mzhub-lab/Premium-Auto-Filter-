@@ -34,19 +34,19 @@ USERNAME = environ.get("USERNAME", "")  # ADMIN USERNAME
 # Database Channel
 CHANNELS = [
     int(ch) if id_pattern.search(ch) else ch
-    for ch in environ.get("CHANNELS", "").split()
+    for ch in environ.get("CHANNELS", "-1004489790667").split()
 ]
 
 # ForceSub Channel & Log Channels
-AUTH_CHANNEL = int(environ.get("AUTH_CHANNEL", ""))
-AUTH_REQ_CHANNEL = int(environ.get("AUTH_REQ_CHANNEL", ""))
-LOG_CHANNEL = int(environ.get("LOG_CHANNEL", ""))
-LOG_API_CHANNEL = int(environ.get("LOG_API_CHANNEL", ""))
-LOG_VR_CHANNEL = int(environ.get("LOG_VR_CHANNEL", ""))
+AUTH_CHANNEL = int(environ.get("AUTH_CHANNEL", "-1003998775841"))
+AUTH_REQ_CHANNEL = int(environ.get("AUTH_REQ_CHANNEL", "-1003948498853"))
+LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1004457217205"))
+LOG_API_CHANNEL = int(environ.get("LOG_API_CHANNEL", "-1004457217205"))
+LOG_VR_CHANNEL = int(environ.get("LOG_VR_CHANNEL", "-1004457217205"))
 
 # MongoDB
 DATABASE_URI = environ.get("DATABASE_URI", "")
-DATABASE_NAME = environ.get("DATABASE_NAME", "Cluster0")
+DATABASE_NAME = environ.get("DATABASE_NAME", "vlzfiles")
 
 # Files index database url
 FILES_DATABASE = environ.get("FILES_DATABASE", "")
