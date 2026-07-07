@@ -173,7 +173,7 @@ if "DYNO" in environ:
     ON_HEROKU = True
 else:
     ON_HEROKU = False
-URL = environ.get("FQDN", "naval-klarika-vlzbots-88759354.koyeb.app/")
+URL = environ.get("FQDN", "")
 
 # Commands
 admin_cmds = [
