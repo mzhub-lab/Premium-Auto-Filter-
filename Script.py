@@ -275,7 +275,7 @@ User - {}"""
 ⏰ ᴄᴜꜱᴛᴏᴍɪꜱᴇᴅ ᴅᴀʏꜱ
 💸 ᴀᴄᴄᴏʀᴅɪɴɢ ᴛᴏ ᴅᴀʏꜱ ʏᴏᴜ ᴄʜᴏᴏꜱᴇ
 
-🏆 ɪꜰ ʏᴏᴜ ᴡᴀɴᴛ ᴀ ɴᴇᴡ ᴘʟᴀɴ ᴀᴘᴀʀᴛ ꜰʀᴏᴍ ᴛʜᴇ ɢɪᴠᴇɴ ᴘʟᴀɴ, ᴛʜᴇɴ ʏᴏᴜ ᴄᴀɴ ᴛᴀʟᴋ ᴛᴏ ᴏᴜʀ <a href='https://telegram.dog/JisshuDeveloperBot'>ᴏᴡɴᴇʀ</a> ᴅɪʀᴇᴄᴛʟʏ ʙʏ ᴄʟɪᴄᴋɪɴɢ ᴏɴ ᴛʜᴇ ᴄᴏɴᴛᴀᴄᴛ ʙᴜᴛᴛᴏɴ ɢɪᴠᴇɴ ʙᴇʟᴏᴡ.
+🏆 ɪꜰ ʏᴏᴜ ᴡᴀɴᴛ ᴀ ɴᴇᴡ ᴘʟᴀɴ ᴀᴘᴀʀᴛ ꜰʀᴏᴍ ᴛʜᴇ ɢɪᴠᴇɴ ᴘʟᴀɴ, ᴛʜᴇɴ ʏᴏᴜ ᴄᴀɴ ᴛᴀʟᴋ ᴛᴏ ᴏᴜʀ <a href='https://telegram.dog/MzBossRt'>ᴏᴡɴᴇʀ</a> ᴅɪʀᴇᴄᴛʟʏ ʙʏ ᴄʟɪᴄᴋɪɴɢ ᴏɴ ᴛʜᴇ ᴄᴏɴᴛᴀᴄᴛ ʙᴜᴛᴛᴏɴ ɢɪᴠᴇɴ ʙᴇʟᴏᴡ.
     
 👨‍💻 ᴄᴏɴᴛᴀᴄᴛ ᴛʜᴇ ᴏᴡɴᴇʀ ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ᴏᴛʜᴇʀ ᴘʟᴀɴ.
 
@@ -293,7 +293,7 @@ User - {}"""
  ❏ 𝟷𝟿𝟿₹    ➠    𝟶𝟼 ᴍᴏɴᴛʜ
  ❏ 𝟹𝟼𝟶₹    ➠    𝟷𝟸 ᴍᴏɴᴛʜ
 
-🆔 ᴜᴘɪ ɪᴅ ➩ <code>jishan@fam</code> [ᴛᴀᴘ ᴛᴏ ᴄᴏᴘʏ]
+🆔 ᴜᴘɪ ɪᴅ ➩ <code>ybawaskar@slc</code> [ᴛᴀᴘ ᴛᴏ ᴄᴏᴘʏ]
  
 ⛽️ ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴀᴄᴛɪᴠᴇ ᴘʟᴀɴ: /myplan
 
@@ -339,10 +339,10 @@ User - {}"""
 --------------Broadcast--------------
 ➩ /broadcast - /grp_broadcast
 --------------Set Ads----------------
-➩ /set_ads {ads name}#{Times}#{photo URL} - <a href="https://t.me/Jisshu_developer/11">Explain</a>
+➩ /set_ads {ads name}#{Times}#{photo URL} - <a href="https://t.me/MzBotz">Explain</a>
 ➩ /del_ads - Delete ads
 -------------Top Trending------------
-➩ /setlist {Mirzapur, Money Heist} - <a href="https://t.me/Jisshu_developer/10">Explain</a>
+➩ /setlist {Mirzapur, Money Heist} - <a href="https://t.me/MzBotz">Explain</a>
 ➩ /clearlist - Clear all lists
 </blockquote></b>"""
 
@@ -355,12 +355,12 @@ User - {}"""
 /set_time_2 {{seconds}} Sᴇᴛ ᴛʜᴇ sᴇᴄᴏɴᴅ ᴠᴇʀɪғɪᴄᴀᴛɪᴏɴ ᴛɪᴍᴇ
 /set_time_3 {{seconds}} Sᴇᴛ ᴛʜᴇ ᴛʜɪʀᴅ ᴠᴇʀɪғɪᴄᴀᴛɪᴏɴ ᴛɪᴍᴇ
 --------------Verify On Off------------
-/verifyoff - off verification <a href="https://telegram.dog/JisshuDeveloperBot">Cᴏɴᴛᴀᴄᴛ</a> ᴛʜᴇ ʙᴏᴛ ᴀᴅᴍɪɴ ғᴏʀ ᴀ ᴠᴇʀɪғʏ.ᴏғғ
+/verifyoff - off verification <a href="https://telegram.dog/MzBossRt">Cᴏɴᴛᴀᴄᴛ</a> ᴛʜᴇ ʙᴏᴛ ᴀᴅᴍɪɴ ғᴏʀ ᴀ ᴠᴇʀɪғʏ.ᴏғғ
 /verifyon - on verification 
 ------------Set File Caption-----------
 /set_caption - set coustom file caption 
 -----------Set Imdb Template-----------
-/set_template - set IMDb template <a href="https://t.me/Jisshu_developer/8">Example</a>
+/set_template - set IMDb template <a href="https://t.me/MzBotz">Example</a>
 --------------Set Tutorial-------------
 /set_tutorial - set verification tutorial 
 -------------Set Log Channel-----------
@@ -389,10 +389,10 @@ Aᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴍᴀᴋᴇ ᴍᴇ ᴀ�
 ➩ /verifyon - on verification 
 ➩ /verifyoff - off verification only for group
 --------------Set Ads----------------
-➩ /set_ads {ads name}#{Times}#{photo URL} - <a href="https://t.me/Jisshu_developer/11">Explain</a>
+➩ /set_ads {ads name}#{Times}#{photo URL} - <a href="https://t.me/MzBotz">Explain</a>
 ➩ /del_ads - Delete ads
 -------------Top Trending------------
-➩ /setlist {Mirzapur, Money Heist} - <a href="https://t.me/Jisshu_developer/10">Explain</a>
+➩ /setlist {Mirzapur, Money Heist} - <a href="https://t.me/MzBotz">Explain</a>
 ➩ /clearlist - Clear all lists
 --------------Index File--------------
 ➩ /index - Index all files
@@ -413,9 +413,9 @@ Aᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴍᴀᴋᴇ ᴍᴇ ᴀ�
 /movie_update_on - Movie Update on</blockquote></b>"""
 
     SOURCE_TXT = """<b>
-ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ʜᴇʀᴇ ◉› :<blockquote><a href="https://t.me/JISSHU_BOTS/685">&lt;Click Here&gt;</a></blockquote>
+ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ʜᴇʀᴇ ◉› :<blockquote><a href="https://t.me/MzBotz">&lt;Click Here&gt;</a></blockquote>
 
-ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : @jisshu_bots
+ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : @mzbotz
 </b>"""
     GROUP_C_TEXT = """<b><blockquote>
  --------------Set Verify-------------
@@ -426,12 +426,12 @@ Aᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴍᴀᴋᴇ ᴍᴇ ᴀ�
 /set_time_2 {seconds} Sᴇᴛ ᴛʜᴇ sᴇᴄᴏɴᴅ ᴠᴇʀɪғɪᴄᴀᴛɪᴏɴ ᴛɪᴍᴇ
 /set_time_3 {seconds} Sᴇᴛ ᴛʜᴇ ᴛʜɪʀᴅ ᴠᴇʀɪғɪᴄᴀᴛɪᴏɴ ᴛɪᴍᴇ
 --------------Verify On Off------------
-/verifyoff {verify.off code} - off verification <a href="https://telegram.dog/JisshuDeveloperBot">Cᴏɴᴛᴀᴄᴛ</a> ᴛʜᴇ ʙᴏᴛ ᴀᴅᴍɪɴ ғᴏʀ ᴀ ᴠᴇʀɪғʏ.ᴏғғ ᴄᴏᴅᴇ
+/verifyoff {verify.off code} - off verification <a href="https://telegram.dog/MzBossRt">Cᴏɴᴛᴀᴄᴛ</a> ᴛʜᴇ ʙᴏᴛ ᴀᴅᴍɪɴ ғᴏʀ ᴀ ᴠᴇʀɪғʏ.ᴏғғ ᴄᴏᴅᴇ
 /verifyon - on verification 
 ------------Set File Caption-----------
 /set_caption - set coustom file caption 
 -----------Set Imdb Template-----------
-/set_template - set IMDb template <a href="https://t.me/Jisshu_developer/8">Example</a>
+/set_template - set IMDb template <a href="https://t.me/MzBotz">Example</a>
 --------------Set Tutorial-------------
 /set_tutorial {tutorial link} - set 1 verification tutorial 
 /set_tutorial_2 {tutorial link} - set 2 verification tutorial 
@@ -444,4 +444,4 @@ Aᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴍᴀᴋᴇ ᴍᴇ ᴀ�
 ʏᴏᴜ ᴄᴀɴ ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴀʟʟ ᴅᴇᴛᴀɪʟs 
 ʙʏ /details ᴄᴏᴍᴍᴀɴᴅ
 </blockquote>
-Iғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ᴅᴏᴜʙᴛs ᴘʟᴇᴀsᴇ <a href="https://telegram.dog/JisshuDeveloperBot">ᴄᴏɴᴛᴀᴄᴛ</a> ᴍʏ <a href="https://telegram.dog/im_jisshu">Z I Ƨ Ή Λ П ♡</a></b>"""
+Iғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ᴅᴏᴜʙᴛs ᴘʟᴇᴀsᴇ <a href="https://telegram.dog/MzBossRt">ᴄᴏɴᴛᴀᴄᴛ</a> ᴍʏ <a href="https://telegram.dog/aoneMarathi">yogiraaj</a></b>"""
