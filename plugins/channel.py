@@ -51,8 +51,7 @@ UPDATE_CAPTION = """<b>𝖭𝖤𝖶 {} 𝖠𝖣𝖣𝖤𝖣 ✅</b>
 
 {}
 
-<blockquote>〽️ Powered by @𝗠𝘇𝗕𝗼𝘁𝘇</b></blockquote>"""
-
+<blockquote>〽️ Powered By 🔹 <a href='https://t.me/MzBotz'>@𝗠𝘇𝗕𝗼𝘁𝘇</a></blockquote>"""
 QUALITY_CAPTION = """📦 {} : {}\n"""
 
 notified_movies = set()
