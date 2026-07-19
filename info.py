@@ -130,7 +130,7 @@ SEASONS = [f"season {i}" for i in range(1, 23)]
 START_IMG = (
     environ.get(
         "START_IMG",
-        "https://graph.org/file/2fbfda2e8ddd611ec08f6-bd9dc35f731ea40868.jpg",
+        "https://graph.org/file/2fbfda2e8ddd611ec08f6-bd9dc35f731ea40868.jpg https://graph.org/file/bbc5b8ab811a2765e8723-1f2dd2aeecc52682eb.jpg",
     )
 ).split()
 FORCESUB_IMG = environ.get("FORCESUB_IMG", "https://i.ibb.co/ZNC1Hnb/ad3f2c88a8f2.jpg")
