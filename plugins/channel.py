@@ -51,7 +51,7 @@ UPDATE_CAPTION = """<b>𝖭𝖤𝖶 {} 𝖠𝖣𝖣𝖤𝖣 ✅</b>
 
 {}
 
-<blockquote>〽️ Powered by @MzBotz</b></blockquote>"""
+<blockquote>〽️ Powered by @𝗠𝘇𝗕𝗼𝘁𝘇</b></blockquote>"""
 
 QUALITY_CAPTION = """📦 {} : {}\n"""
 
