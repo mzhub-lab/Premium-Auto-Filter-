@@ -72,7 +72,7 @@ IS_VERIFY = is_enabled("IS_VERIFY", True)
 # ---------------------------------------------------------------
 TUTORIAL = environ.get("TUTORIAL", "https://t.me/howtoopennlinks/25")
 TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/howtoopennlinks/24")
-TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/howtoopennlinks/19")
+TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/howtoopennlinks/26")
 VERIFY_IMG = environ.get(
     "VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg"
 )
@@ -83,11 +83,11 @@ SHORTENER_API2 = environ.get(
 )
 SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", "shortxlinks.com")
 SHORTENER_API3 = environ.get(
-    "SHORTENER_API3", "41ff6d51799b604c63f6cfe75eb5b7a58794a850"
+    "SHORTENER_API3", "1aa2fcb77f78adfec5c65ab78678f4492ddc584d"
 )
-SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", "papajiurl.com")
-TWO_VERIFY_GAP = int(environ.get("TWO_VERIFY_GAP", "1800"))
-THREE_VERIFY_GAP = int(environ.get("THREE_VERIFY_GAP", "1800"))
+SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", "vplink.in")
+TWO_VERIFY_GAP = int(environ.get("TWO_VERIFY_GAP", "900"))
+THREE_VERIFY_GAP = int(environ.get("THREE_VERIFY_GAP", "900"))
 
 # Language & Quality & Season & Year
 LANGUAGES = [
