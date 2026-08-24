@@ -400,19 +400,9 @@ async def start(client: Client, message):
             await db.create_verify_id(user_id, verify_id)
             temp.CHAT[user_id] = grp_id
             if message.command[1].startswith("allfiles"):
-                verify = await get_shortlink(
-                    f"{URL}verify?token=jisshu_{user_id}_{verify_id}_{file_id}",
-                    grp_id,
-                    is_second_shortener,
-                    is_third_shortener,
-                )
+                verify = f"{URL}verify?token=jisshu_{user_id}_{verify_id}_{file_id}&grp_id={grp_id}"
             else:
-                verify = await get_shortlink(
-                    f"{URL}verify?token=notcopy_{user_id}_{verify_id}_{file_id}",
-                    grp_id,
-                    is_second_shortener,
-                    is_third_shortener,
-                )
+                verify = f"{URL}verify?token=notcopy_{user_id}_{verify_id}_{file_id}&grp_id={grp_id}"
             if is_third_shortener:
                 howtodownload = settings.get("tutorial_3", TUTORIAL_3)
             else:
