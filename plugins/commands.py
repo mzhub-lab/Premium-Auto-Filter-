@@ -401,14 +401,14 @@ async def start(client: Client, message):
             temp.CHAT[user_id] = grp_id
             if message.command[1].startswith("allfiles"):
                 verify = await get_shortlink(
-                    f"https://telegram.me/{temp.U_NAME}?start=jisshu_{user_id}_{verify_id}_{file_id}",
+                    f"{URL}verify?token=jisshu_{user_id}_{verify_id}_{file_id}",
                     grp_id,
                     is_second_shortener,
                     is_third_shortener,
                 )
             else:
                 verify = await get_shortlink(
-                    f"https://telegram.me/{temp.U_NAME}?start=notcopy_{user_id}_{verify_id}_{file_id}",
+                    f"{URL}verify?token=notcopy_{user_id}_{verify_id}_{file_id}",
                     grp_id,
                     is_second_shortener,
                     is_third_shortener,
