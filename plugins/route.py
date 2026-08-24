@@ -10,7 +10,8 @@ from Jisshu.server.exceptions import FIleNotFound, InvalidHash
 from Jisshu.util.custom_dl import ByteStreamer
 from Jisshu.util.render_template import render_page
 from info import *
-from utils import temp
+from utils import temp, get_shortlink
+from database.users_chats_db import db
 
 routes = web.RouteTableDef()
 
@@ -23,9 +24,34 @@ async def root_route_handler(request):
 @routes.get("/verify", allow_head=True)
 async def verify_redirect_handler(request: web.Request):
     token = request.rel_url.query.get("token")
-    if token:
+    grp_id = request.rel_url.query.get("grp_id", "0")
+
+    if not token:
+        return web.Response(
+            text="<b>Invalid or Missing Verification Token!</b>",
+            content_type="text/html",
+        )
+
+    try:
+        user_id = int(token.split("_")[1])
+        is_second_shortener = await db.use_second_shortener(user_id, TWO_VERIFY_GAP)
+        is_third_shortener = await db.use_third_shortener(user_id, THREE_VERIFY_GAP)
+
+        target_tg_link = f"https://t.me/{temp.U_NAME}?start={token}"
+
+        short_url = await get_shortlink(
+            target_tg_link,
+            int(grp_id),
+            is_second_shortener,
+            is_third_shortener,
+        )
+
+        raise web.HTTPFound(location=short_url)
+    except (web.HTTPFound, web.HTTPMovePermanently):
+        raise
+    except Exception as e:
+        logging.error(f"Error in verification redirect: {e}")
         raise web.HTTPFound(location=f"https://t.me/{temp.U_NAME}?start={token}")
-    return web.Response(text="<b>Invalid or Expired Verification Link!</b>", content_type="text/html")
 
 
 @routes.get(r"/watch/{path:\S+}", allow_head=True)
@@ -161,4 +187,5 @@ async def media_streamer(request: web.Request, id: int, secure_hash: str):
             "Accept-Ranges": "bytes",
         },
     )
+
 
