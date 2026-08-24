@@ -1,16 +1,16 @@
-from aiohttp import web
-import re
-import math
 import logging
-import secrets
+import math
 import mimetypes
+import re
+import secrets
+from aiohttp import web
 from aiohttp.http_exceptions import BadStatusLine
 from Jisshu.bot import multi_clients, work_loads
 from Jisshu.server.exceptions import FIleNotFound, InvalidHash
 from Jisshu.util.custom_dl import ByteStreamer
 from Jisshu.util.render_template import render_page
 from info import *
-
+from utils import temp
 
 routes = web.RouteTableDef()
 
@@ -18,6 +18,14 @@ routes = web.RouteTableDef()
 @routes.get("/", allow_head=True)
 async def root_route_handler(request):
     return web.json_response("InfinityBotzz ~ EDITH")
+
+
+@routes.get("/verify", allow_head=True)
+async def verify_redirect_handler(request: web.Request):
+    token = request.rel_url.query.get("token")
+    if token:
+        raise web.HTTPFound(location=f"https://t.me/{temp.U_NAME}?start={token}")
+    return web.Response(text="<b>Invalid or Expired Verification Link!</b>", content_type="text/html")
 
 
 @routes.get(r"/watch/{path:\S+}", allow_head=True)
@@ -153,3 +161,4 @@ async def media_streamer(request: web.Request, id: int, secure_hash: str):
             "Accept-Ranges": "bytes",
         },
     )
+
