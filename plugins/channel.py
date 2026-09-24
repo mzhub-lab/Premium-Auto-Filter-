@@ -51,7 +51,7 @@ UPDATE_CAPTION = """<blockquote>⚡️ <b>NEW {} ADDED</b></blockquote>
 
 <blockquote>📁 <b>Available Files & Links:</b>
 {}</blockquote>
-<blockquote>🔥 <b>Powered By</b> ➔ <a href='https://t.me/MzBotz'><b>𝐌𝐳𝐁𝐨𝐭𝐳™</b></a> ⚡️</blockquote>
+<blockquote>🔥 <b>Powered By</b> ➔ <a href='https://t.me/MzBotz'><b>𝐌𝐳𝐁𝐨𝐭𝐳™</b></a> ⚡️</blockquote>"""
 
 notified_movies = set()
 movie_files = defaultdict(list)
