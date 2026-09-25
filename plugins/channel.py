@@ -309,6 +309,7 @@ async def send_movie_update(bot, file_name, files):
                     photo=poster_image,
                     caption=full_caption,
                     parse_mode=enums.ParseMode.HTML,
+                    has_spoiler=True
                 )
                 break
             except errors.FloodWait as fw:
