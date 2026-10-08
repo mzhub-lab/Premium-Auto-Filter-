@@ -17,7 +17,7 @@ media_filter = filters.document | filters.video | filters.audio
 
 ACTIVE_POSTS = {}
 MERGE_LOCK = asyncio.Lock()
-DEFAULT_POSTER_URL = "https://te.legra.ph/file/88d845b4f8a024a71465d.jpg"
+DEFAULT_POSTER_URL = "https://files.catbox.moe/oeecjg.jpg"
 
 UPDATE_CAPTION = """<blockquote>⚡️ <b>NEW {} ADDED</b></blockquote>
 
